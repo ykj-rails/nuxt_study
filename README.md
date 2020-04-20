@@ -1,1 +1,1 @@
-# nuxt_study
+## nuxt_study
