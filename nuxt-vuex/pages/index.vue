@@ -2,6 +2,14 @@
   <div class="container">
     <div>
       <p>{{ $store.state.message }}</p>
+      <!-- <button @click="$store.commit('updateMessage')">Update</button> -->
+      <!-- <button @click="$store.commit('updateMessage', 'WTF?!')">Update</button> -->
+      <!-- <button @click="$store.dispatch('updateMessageAction')">Dispatch</button> -->
+      <button
+        @click="$store.dispatch('updateMessageAction', 'Goodな1日にしよう')"
+      >
+        Dispatch
+      </button>
     </div>
   </div>
 </template>
